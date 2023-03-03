@@ -1,8 +1,6 @@
 # SALAT
 Android E-commerce app using java language
 
-![](https://raw.githubusercontent.com/Abdelrahman-Yasser-1/SALAT/main/Screenshots/salat.PNG)
-
 ------
 
 ## Screenshots
