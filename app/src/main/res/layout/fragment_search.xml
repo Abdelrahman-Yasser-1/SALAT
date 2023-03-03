@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Fragment.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/user_search_txt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_txt"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:ems="10"
+            android:drawablePadding="10dp"
+            android:hint="Search"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="#797183EA"
+            android:textColorLink="@color/mainColorLight"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/user_search_btn_voice"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_white"
+            android:src="@drawable/ic_baseline_mic_24"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/user_search_btn_barcode"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_white"
+            android:src="@drawable/ic_baseline_camera_24"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/user_search_spinner_search_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:entries="@array/search_array"
+        android:padding="10dp" />
+
+    <ListView
+        android:id="@+id/user_search_list_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+</LinearLayout>

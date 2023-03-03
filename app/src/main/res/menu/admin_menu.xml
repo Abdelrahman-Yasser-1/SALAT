@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_manage_product"
+        android:title="Manage Product"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/nav_manage_category"
+        android:title="Manage Category"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/nav_add_product"
+        android:title="Add Product"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+
+    <item
+        android:id="@+id/nav_add_category"
+        android:title="Add Category"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+
+    <item
+        android:id="@+id/nav_report"
+        android:title="Report"
+        android:icon="@drawable/ic_baseline_ireport_24"
+        />
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="Feedback"
+        android:icon="@drawable/ic_baseline_feedback_24"/>
+    <item
+        android:id="@+id/nav_chart"
+        android:title="Chart"
+        android:icon="@drawable/ic_baseline_bar_chart_24"/>
+
+</menu>

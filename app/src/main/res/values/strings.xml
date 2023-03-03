@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SALAT</string>
+
+    <!--    Gender types    -->
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!--    Search types    -->
+    <string-array name="search_array">
+        <item>Search by Text</item>
+        <item>Search by Voice</item>
+        <item>Search by Barcode</item>
+    </string-array>
+
+</resources>
